@@ -30,6 +30,10 @@ public class Main {
         return res;
     }
 
+    public static String winnerSearch(List<String> results){
+
+    }
+
     public static void main(String []args){
         Collection myCollection = new ArrayList();
         myCollection.add(1);
@@ -53,5 +57,10 @@ public class Main {
         myMap.put(17, 21);
         System.out.println("task2:");
         System.out.println(changeKV(myMap));
+
+
+
+        List<String> results = Arrays.asList("Ivan 5", "Petr 3", "Alex 10", "Petr 8", "Ivan 6", "Alex 5", "Ivan 1", "Petr 5", "Alex 1");
+        System.out.println(winnerSearch(results));
     }
 }
